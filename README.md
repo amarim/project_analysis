@@ -14,6 +14,13 @@ Analysis data from Project Getting and Cleaning Coursera
 - run_analysis.r: This file is a R code that contain a function. This function have as output a independent tidy data set with the average of each variable for each activity and each subject.
 - CodeBook.md: This file descript each variable in out data set.
 
+# How this script work
+- If directory "UCI HAR Dataset" with data not exist, the download the zip file begin.
+- After download the file is unziped.
+- Some file are read.
+- Different data set are join each other.
+- The mean are calculed to each field the new data set
+
 # Example to call function and view data set in run_analysis.r file
 - source("run_analysis.r")
 - dataset <- run_analysis()
