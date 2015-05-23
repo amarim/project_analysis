@@ -1,9 +1,6 @@
 # project_analysis
 Analysis data from Project Getting and Cleaning Coursera
 
-# project_analysis
-Analysis data from Project Getting and Cleaning Coursera
-
 # About this work
 - The work is a way prepare tidy data that can be used for later analysis.
 - Some spread files are read to build a unique data set with mean of several variables.
